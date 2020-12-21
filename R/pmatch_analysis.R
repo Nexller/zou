@@ -1,3 +1,14 @@
+#' 批量匹配函数
+#' 先调用pmatch_analysis函数，再根据以下的代码，进入循环。
+#'
+#' @param query 要查询的ID列
+#' @param target 要匹配的数据库
+#'
+#' @return
+#' @export
+#'
+#' @examples
+
 pmatch_analysis <- function(query,target) {
   hit <- read.delim2(file = query, sep = "\t",header = F)
   hit2 <- read.delim2(file = target, sep = "\t",header = T)
