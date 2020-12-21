@@ -19,3 +19,6 @@ multi.ttest(mat, ...)
 多重t-test计算
 这个函数用于计算多个变量，两两之间的t-test
 }
+\examples{
+multi.ttest(mtcars)
+}

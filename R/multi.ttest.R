@@ -7,6 +7,9 @@
 #' @export
 #'
 #' @examples
+#' multi.ttest(mtcars)
+
+
 multi.ttest <- function(mat, ...) {
   mat <- as.matrix(mat)
   n <- ncol(mat)
